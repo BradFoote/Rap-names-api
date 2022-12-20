@@ -36,7 +36,7 @@ app.get('/api/:name', (request, response) => {
     
 })
 
-app.listen(PORT, () => {
+app.listen(process.env.PORT || PORT, () => {
     //listen is a smurf 
     console.log(`The server is now runnong on port ${PORT}. You better go catch it`)
 })
