@@ -1,3 +1,4 @@
+//setting up a basic server using epress. It lets you input names of rappers into a database on MongoDB where you can delete or add people.
 const express = require('express')
 const app = express()
 const cors = require('cors')
